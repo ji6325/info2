@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@media all and (max-width:1903px){
+
+}
+
+@media all and (max-width:1500px){
+    #wrap .nav-wrap.addNav {z-index:998;position:fixed;top:0;right:0px;width:50%;height:100%;background: #fff;}
+    #wrap .nav-wrap .nav-gap #nav {width:100%;}
+#wrap .nav-wrap .nav-gap #nav .nav-btn-gap {padding:30px 0;margin-top:40px;border-bottom:1px solid #ccc;border-top:1px solid #ccc;}
+#wrap .nav-wrap .nav-gap #nav .nav-btn-gap ul {width:100%;text-align:left;}
+#wrap .nav-wrap .nav-gap #nav .nav-btn-gap ul li {width:100%;}
+#wrap .nav-wrap .nav-gap #nav .nav-btn-gap ul li .main-gap {padding:10px 0;}
+#wrap .nav-wrap .nav-gap #nav .nav-btn-gap ul li .main-gap .main-btn {width:100%;font-size:14px;font-weight:600;color:#727272;transition:all .6s ease-in-out;}
+#wrap .nav-wrap .nav-gap #nav .nav-btn-gap ul li .main-gap .main-btn.addCol {color:#000;}
+#wrap .nav-wrap .nav-gap #nav .nav-btn-gap ul li .main-gap .main-btn span {width:100%;font-size:14px;font-weight:600;padding-right:10px;color:#a9a9a9;}
+#wrap .nav-wrap .nav-gap #nav .nav-btn-gap ul li .main-gap .main-btn span.addColor {color:#e31d3b;}
+
+#wrap .nav-wrap .nav-gap #aside {padding-top:27.75px;}
+#wrap .nav-wrap .nav-gap #aside ul {width:100%;}
+#wrap .nav-wrap .nav-gap #aside ul li {display:inline-block;margin:0 10px;}
+#wrap .nav-wrap .nav-gap #aside ul li a {color:rgba(87,87,87, 1);font-size:14px;transition:color .3s;}
+#wrap .nav-wrap .nav-gap #aside ul li a:hover {color:rgba(87,87,87, .6);}
+
+}
+
+@media all and (max-width:1200px){
+#wrap #main #section1 .wrap .gap .container .cover-icon{display:none;}
+    
+}
+
+@media all and (max-width:980px){
+#wrap #main #section1 .wrap .gap .container .main-box {position:relative;width:400px;height:400px;}
+#wrap #main #section1 .wrap .gap .container .main-box .box {width:400px;height:400px;}
+#wrap #main #section1 .wrap .gap .container .main-box .text-box {width:400px;height:180px;padding:100px 0;}
+#wrap #main #section1 .wrap .gap .container .main-box .text-box p {padding:10px 0;font-size:20px;font-weight: 600;}
+
+#wrap #main #section2 {overflow:visible;padding:60px 0;}
+#wrap #main #section2 .wrap .gap {margin:0 50px;}
+#wrap #main #section2 .wrap .gap .container > ul > li:nth-child(1) {width:50%}
+#wrap #main #section2 .wrap .gap .container > ul > li:nth-child(2) {width:50%}
+#wrap #main #section2 .wrap .gap .container > ul > li:nth-child(3) {width:50%}
+#wrap #main #section2 .wrap .gap .container > ul > li:nth-child(3) .content-gap {padding-top:30px;}
+
+#wrap #main #section2 .wrap .gap .container > ul > li .content-gap .content > h3 {font-size:20px;padding-bottom:20px;}
+#wrap #main #section2 .wrap .gap .container > ul > li .content-gap .content > h2 {font-size:20px;padding-bottom:20px;}
+#wrap #main #section2 .wrap .gap .container > ul > li .content-gap .content > span {font-size:15px;line-height:200%;}
+#wrap #main #section2 .wrap .gap .container > ul > li .content-gap .content > p {font-size:15px;line-height:200%;}
+#wrap #main #section2 .wrap .gap .container > ul > li .content-gap .content .img-box {position:relative;}
+
+#wrap #main #section3 .wrap .gap .container li #svgWrap img{width:60px;height:60px;margin-top:-30px;margin-left:-30px;}
+#wrap #main #section3 .wrap .gap .container li:nth-child(4) #svgWrap img{width:60px;height:60px;margin-top:-30px;margin-left:-30px;}
+#wrap #main #section3 .wrap .gap .container li #svgWrap .number{line-height:350px;font-size:20px;font-weight:300;}
+
+#wrap #main #slide3d {display:none;}
+#wrap #main #section4 {padding:60px 0;}
+#wrap #main #section4 .wrap .gap .container .content ul li {width:50%;padding:10px 0;}
+#wrap #main #section4 .wrap .gap .container .content ul li .content-gap .content-wrap .cube-btn {display:none;}
+#wrap #main #section4 .wrap .gap .container .content ul li .content-gap .content-wrap .ga-btn {display:block;}
+}
+
+@media all and (max-width:870px){
+    #wrap #main #section3 .wrap .gap .container li #svgWrap .number{line-height:300px;}
+}
+
+@media all and (max-width:767px){
+    #wrap #main #section2 .wrap {max-width:520px;}
+    #wrap #main #section2 .wrap .gap {margin:0 30px;}
+    #wrap #main #section2 .wrap .gap .container .text-title-wrap .text-title-gap {padding:0 0 50px;text-align:center;}
+    #wrap #main #section2 .wrap .gap .container > ul > li .content-gap .content h2 {font-size:20px;padding-bottom:20px;}    
+    #wrap #main #section2 .wrap .gap .container > ul > li:nth-child(1) {width:100%}
+    #wrap #main #section2 .wrap .gap .container > ul > li:nth-child(2) {width:50%}
+    #wrap #main #section2 .wrap .gap .container > ul > li:nth-child(3) {width:50%}
+    #wrap #main #section2 .wrap .gap .container > ul > li:nth-child(2) .content-gap ,
+    #wrap #main #section2 .wrap .gap .container > ul > li:nth-child(3) .content-gap {padding-top:40px;}
+    #wrap #main #section2 .wrap .gap .container > ul > li .content-gap {margin:0;} 
+    #wrap #main #section2 .wrap .gap .container > ul > li .content-gap .content .img-box {padding-bottom:20px;} 
+    #wrap #main #section2 .wrap .gap .container > ul > li .content-gap .content > p {line-height:170%;}  
+
+    #wrap #main #section3 .wrap .gap .container li #svgWrap img{width:50px;height:50px;margin-top:-25px;margin-left:-25px;}
+    #wrap #main #section3 .wrap .gap .container li:nth-child(4) #svgWrap img{width:50px;height:50px;margin-top:-25px;margin-left:-25px;}
+    #wrap #main #section3 .wrap .gap .container li #svgWrap .number{display: none;}
+}
+
+@media all and (max-width:490px){
+    #wrap #main #section1 .wrap .gap .container .main-box {position:relative;width:300px;height:300px;}
+    #wrap #main #section1 .wrap .gap .container .main-box .box {width:300px;height:300px;}
+    #wrap #main #section1 .wrap .gap .container .main-box .text-box {width:300px;height:80px;padding:60px 0;}
+    #wrap #main #section1 .wrap .gap .container .main-box .text-box p {padding:10px 0;font-size:20px;font-weight: 600;}
+
+    #wrap #main #section2 .wrap {max-width:400px;}
+    #wrap #main #section2 .wrap .gap {margin:0 15px;}
+    #wrap #main #section2 .wrap .gap .container > ul > li .content-gap .content h2 {font-size:20px;padding-bottom:20px;}    
+    #wrap #main #section2 .wrap .gap .container > ul > li:nth-child(1) {width:100%}
+    #wrap #main #section2 .wrap .gap .container > ul > li:nth-child(2) {width:100%}
+    #wrap #main #section2 .wrap .gap .container > ul > li:nth-child(3) {width:100%}  
+    #wrap #main #section2 .wrap .gap .container > ul > li .content-gap .content > p {line-height:150%;}
+
+    #wrap #main #section4 .wrap .gap .container .content ul li {width:100%;padding:20px 0;}
+
+}
